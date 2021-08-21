@@ -1,0 +1,103 @@
+.main-detail {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px;
+}
+
+.detailcontainer img {
+  width: 100%;
+  height: 400px;
+  margin-right: 10px;
+}
+
+.detail-card {
+  width: 50%;
+  padding: 10px;
+}
+
+.detail-card h2,
+h3 {
+  padding: 20px 0px;
+}
+
+.detail-card p {
+  padding: 5px 0px;
+}
+
+.description {
+  font-size: small;
+  text-align: justify;
+  word-spacing: 0px;
+}
+
+.disc {
+  text-decoration: line-through 2px rgb(94, 96, 97);
+  margin-left: 3px;
+  color: rgb(113, 114, 111);
+}
+
+.buy-botton button {
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #c92419;
+  font-size: 15px;
+}
+
+.buy-botton .cart {
+  background-color: rgb(236, 126, 22);
+  color: beige;
+}
+
+.buy-botton .cart:hover {
+  background-color: rgb(180, 67, 1);
+  color: beige;
+}
+
+.buy-botton .buy {
+  background-color: #f44336;
+  color: white;
+}
+
+.buy-botton .buy:hover {
+  background-color: #c92419;
+  color: white;
+}
+
+
+
+@media screen and (max-width: 840px) {
+  .main-detail {
+    display: block;
+  }
+
+  .detailcontainer img {
+    width: 80%;
+    height: 400px;
+    margin: 0px;
+  }
+
+  .detail-card {
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .buy-botton button {
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #5e5c5c;
+    font-size: 10px;
+  }
+
+  .buy-botton .cart {
+    background-color: rgb(95, 89, 83);
+    color: beige;
+  }
+
+  .description {
+    text-align: justify;
+  }
+  
+}

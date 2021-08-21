@@ -1,0 +1,43 @@
+.slide-images {
+  width: 100%;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  margin-top: 5px;
+  height: 400px;
+  padding: 10px;
+  
+  
+}
+
+
+.slideshowDots {
+  text-align: center;
+}
+
+.slideshowDot {
+  display: inline-block;
+  height: 5px;
+  width: 50px;
+  border-radius: 20%;
+
+  cursor: pointer;
+  margin: 15px 7px 0px;
+
+  background-color: #c4c4c4;
+}
+
+.slideshowDot.active {
+  background-color: rgb(82, 80, 80);
+}
+
+
+@media screen and (max-width: 960px) {
+  .image {
+    
+    height: 00px;
+    
+    
+  }
+  
+  
+}
